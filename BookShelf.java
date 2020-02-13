@@ -19,4 +19,17 @@ public class BookShelf {
         return numOfBooks -= 4;
     }
 
+    protected int increaseNumOfBooksBy(int incr){
+        return numOfBooks += incr;
+    }
+
+    //default constructor for this class
+    public BookShelf(){
+
+    }
+
+    //constructor with 3 input parameters (Paramaterised Constructor)
+    public BookShelf(int age, String breed, int height){
+        
+    }
 }
